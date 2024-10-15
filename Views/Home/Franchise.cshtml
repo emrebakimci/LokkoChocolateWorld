@@ -1,0 +1,86 @@
+@model Lokko.Models.FranchiseModel
+@{
+    ViewBag.Title="Franchise";
+}
+
+<div class="franchise-info-container">
+    <h3><strong style="text-align: center;">Lokko Chocolate World Franchise: Tatlı Başarılar İçin Bir Yolculuk</strong></h3>
+    <p><strong>Marka Gücümüz ve Tanınırlığımız</strong><br>
+    Lokko Chocolate World, yüksek kalite ve lezzet konusundaki kararlılığıyla sektörde kendine sağlam bir yer edinmiştir. Ülke genelinde tanınan bir marka olma yolunda emin adımlarla ilerlerken, franchise sahiplerimiz bu başarı hikayesinin bir parçası olma ayrıcalığını yaşar. Lokko Chocolate World adı, müşteriler için kalite ve güvenin sembolü haline gelmiştir ve bu güçlü marka bilinirliği, yeni franchise noktalarının da hızlı bir şekilde benimsenmesini sağlar.</p>
+
+    <p><strong>Zengin ve Çeşitli Menümüz</strong><br>
+    Lokko Chocolate World’ün menüsü, çeşitlilik ve kaliteyi mükemmel bir şekilde bir araya getirir. Müşterilerimize sunduğumuz her bir lezzet, onların damak zevkine hitap ederken, geniş yelpazemiz farklı müşteri segmentlerine ulaşma imkanı sağlar. Çikolatanın başrolde olduğu bu eşsiz menü, herkesin kendine uygun bir lezzet bulabileceği şekilde tasarlanmıştır. Bu da müşterilerin tekrar tekrar gelmelerini ve sadık bir müşteri kitlesi oluşmasını sağlar.</p>
+
+    <p><strong>İnovasyon ve Yaratıcılığın Gücü</strong><br>
+    Lokko Chocolate World, inovasyonu ve yaratıcılığı her zaman ön planda tutar. Sürekli olarak yeni ve heyecan verici lezzetler geliştirme amacımız, müşterilerimize sunduğumuz deneyimi sürekli taze tutar. Lokko Özel başlıklı ürünlerimiz, sektördeki iddiamızı ve yenilikçi yaklaşımımızı yansıtır. Bu özel ürünler, markamızın rakiplerinden ayrılmasını ve müşterilerimizin beklentilerini aşmasını sağlar.</p>
+
+    <p><strong>Franchise Sahiplerimize Sağladığımız Eğitim ve Destek</strong><br>
+    Lokko Chocolate World ailesine katıldığınızda, sadece bir iş fırsatı değil, aynı zamanda kapsamlı bir destek sistemi de kazanırsınız. İşletmenizin her aşamasında yanınızda olur, operasyonel süreçlerden pazarlama stratejilerine kadar her konuda rehberlik ederiz. Bu destek, franchise sahiplerimizin karşılaşabileceği zorlukların üstesinden gelmelerine ve başarılı bir iş modeli oluşturmalarına yardımcı olur.</p>
+
+    <p><strong>Sıcak ve Samimi Bir Ortam</strong><br>
+    Müşterilerimize sadece lezzetli ürünler sunmakla kalmayıp, aynı zamanda onlara sıcak ve samimi bir ortamda keyifli bir deneyim yaşatmayı hedefleriz. Lokko Chocolate World şubeleri, sadece birer kafe değil, insanların buluşma noktası haline gelir. Bu da müşteri memnuniyetini ve bağlılığını artırır.</p>
+
+    <p><strong>Lokko Chocolate World ile Tatlı Anılar Yaratın</strong><br>
+    Lokko Chocolate World franchise'ı, girişimciler için sağlam bir iş modeli ve büyüme fırsatları sunar. Yüksek kaliteli ürünlerimiz ve müşteri odaklı hizmet anlayışımızla, birlikte büyük başarılara imza atabiliriz. Lokko ailesine katılın, tatlı anılar yaratma yolculuğunda bizimle olun.</p>
+
+    <p><strong>Lokko Chocolate World olarak, tatlı dünyasında iz bırakmaya ve her bir müşterimizin gönlünde yer etmeye devam ediyoruz. Siz de bu tatlı başarı yolculuğunda bizimle olmayı seçin, birlikte daha güzel yarınlara yürüyelim.</strong></p>
+</div>
+
+<h2>Franchise Başvuru</h2>
+
+<form id="franchiseForm" onsubmit="sendMail(); return false;">
+    <div class="form-group">
+        <label for="Ad_Soyad">Ad Soyad</label>
+        <input type="text" class="form-control" id="Ad_Soyad" name="Ad_Soyad" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" required />
+    </div>
+    <div class="form-group">
+        <label for="Telefon">Telefon</label>
+        <input type="tel" class="form-control" id="Telefon" name="Telefon" required />
+    </div>
+    <div class="form-group">
+        <label for="Sehir">Franchise Açmak İstediğiniz Şehir</label>
+        <input type="text" class="form-control" id="Sehir" name="Sehir" required />
+    </div>
+    <div class="form-group">
+        <label for="Butce">Bütçe</label>
+        <input type="text" class="form-control" id="Butce" name="Butce" required />
+    </div>
+    <div class="form-group">
+        <label for="Mesaj">Mesajınız</label>
+        <textarea class="form-control" id="Mesaj" name="Mesaj" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Gönder</button>
+</form>
+
+<script>
+    function sendMail() {
+        var adSoyad = document.getElementById("Ad_Soyad").value;
+        var email = document.getElementById("Email").value;
+        var telefon = document.getElementById("Telefon").value;
+        var sehir = document.getElementById("Sehir").value;
+        var butce = document.getElementById("Butce").value;
+        var mesaj = document.getElementById("Mesaj").value;
+
+        if (!adSoyad || !email || !telefon || !sehir || !butce || !mesaj) {
+            alert("Lütfen tüm alanları doldurun.");
+            return false;
+        }
+
+        var subject = encodeURIComponent("Franchise Başvurusu");
+        var body = encodeURIComponent(
+            "Ad Soyad: " + adSoyad + "\n" +
+            "Email: " + email + "\n" +
+            "Telefon: " + telefon + "\n" +
+            "Franchise Açmak İstediğiniz Şehir: " + sehir + "\n" +
+            "Bütçe: " + butce + "\n" +
+            "Mesajınız: " + mesaj
+        );
+
+        var mailtoLink = "mailto:lokkochocolate@hotmail.com?subject=" + subject + "&body=" + body;
+        window.location.href = mailtoLink;
+    }
+</script>

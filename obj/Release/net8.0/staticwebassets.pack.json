@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Lokko.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Lokko.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\fonts\\Pixilate - JollyGood Sans Basic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Pixilate - JollyGood Sans Basic.otf"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\fonts\\SpicyRice-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\SpicyRice-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\Lokko.png",
+      "PackagePath": "staticwebassets\\img\\Lokko.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\Lokko1.jpg",
+      "PackagePath": "staticwebassets\\img\\Lokko1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\Lokko2.jpg",
+      "PackagePath": "staticwebassets\\img\\Lokko2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\Lokkodeneme.png",
+      "PackagePath": "staticwebassets\\img\\Lokkodeneme.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\adres.png",
+      "PackagePath": "staticwebassets\\img\\adres.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\calisma.png",
+      "PackagePath": "staticwebassets\\img\\calisma.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\chocolate.png",
+      "PackagePath": "staticwebassets\\img\\chocolate.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\chocolate1.jpg",
+      "PackagePath": "staticwebassets\\img\\chocolate1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\chocolate2.jpg",
+      "PackagePath": "staticwebassets\\img\\chocolate2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\chocolate3.jpg",
+      "PackagePath": "staticwebassets\\img\\chocolate3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\chocolate4.jpg",
+      "PackagePath": "staticwebassets\\img\\chocolate4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\contact.jpg",
+      "PackagePath": "staticwebassets\\img\\contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\email.png",
+      "PackagePath": "staticwebassets\\img\\email.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\franchise.jpg",
+      "PackagePath": "staticwebassets\\img\\franchise.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\misyon.jpg",
+      "PackagePath": "staticwebassets\\img\\misyon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\telefon.png",
+      "PackagePath": "staticwebassets\\img\\telefon.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\tiktok.png",
+      "PackagePath": "staticwebassets\\img\\tiktok.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\vizyon.jpg",
+      "PackagePath": "staticwebassets\\img\\vizyon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\img\\whatsapp.png",
+      "PackagePath": "staticwebassets\\img\\whatsapp.png"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emre\\Desktop\\Lokko\\Lokko\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Lokko.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Lokko.props",
+      "PackagePath": "build\\Lokko.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Lokko.props",
+      "PackagePath": "buildMultiTargeting\\Lokko.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Lokko.props",
+      "PackagePath": "buildTransitive\\Lokko.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

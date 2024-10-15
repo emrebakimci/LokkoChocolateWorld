@@ -1,0 +1,83 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #F2F2F2;
+  font-family: 'MySpicyfont', Arial, sans-serif;
+
+}
+
+a:hover{
+  background-color: #F96D00;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/Pixilate - JollyGood Sans Basic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MySpicyfont';
+  src: url('/fonts/Pixilate - JollyGood Sans Basic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.full-width-carousel {
+  width: 100vw; 
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Navbar için başlangıç stilleri */
+.navbar {
+  transition: all 0.8s ease; /* Geçiş süresi 0.8 saniye */
+}
+
+/* Scroll sonrası navbar stilleri */
+.navbar.shrink {
+  padding: 10px; /* Küçülmüş padding */
+  background-color: rgba(34, 34, 34, 0.8) !important; /* Şeffaf arkaplan */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+}
+
+.navbar.shrink .nav-link {
+  color: #fff; /* Scroll sonrası link rengi */
+}
+
+.full-width-carousel .carousel-item img {
+  height: 600px; /* İstediğiniz yüksekliği buraya girin */
+  object-fit: cover; /* Görüntünün kırpılmasını sağlamak için */
+}

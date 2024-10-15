@@ -1,0 +1,165 @@
+@{
+    ViewBag.Title = "İletişim";
+}
+
+
+<style>
+    .hero-section {
+        background-image: url('/img/contact.jpg'); /* Arka plan fotoğrafı */
+        background-size: cover; /* Arka planı kapla */
+        background-position: center center; /* Arka planı ortala */
+        height: 400px; /* Arka plan yüksekliği */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #F96D00; /* Yazı rengi */
+        border-radius: 10px;
+    }
+    .hero-section h2 {
+        font-size: 48px; /* Başlık font boyutu */
+        font-weight: bold; /* Kalın font */
+    }
+     .container-contact {
+        margin-top: 20px; /* Ana container üst boşluğu */
+    }
+    .contact-item {
+        text-align: left; /* Yazılar sola hizalı kalsın */
+        display: flex;
+        align-items: center; /* İçerikleri dikeyde ortala */
+    }
+
+    .contact-item img {
+        margin-right: 10px; /* İkon ile metin arasında boşluk bırak */
+    }
+
+    .contact-item p {
+        margin-bottom: 0; /* İletişim bilgileri arasında fazladan boşluk olmasını engeller */
+    }
+
+    .accordion {
+        margin-top: 20px; /* Accordion'un üst boşluğu */
+    }
+
+    .accordion-item {
+        margin-bottom: 10px; /* Accordion item'lar arası boşluk */
+    }
+
+    .konum-card {
+        margin-top: 20px; /* Konum kartının üst boşluğu */
+    }
+</style>
+
+<div class="hero-section">
+    <div class="container">
+        <h2>BİZE ULAŞIN!</h2>
+    </div>
+</div>
+
+<div class="container" style="padding: 20px;">
+    <div class="row">
+        <!-- Sol taraftaki iletişim bilgileri -->
+        <div class="col-lg-6">
+            <div class="card-body text-center" style="background-color: #F2F2F2;">
+                <h5 class="card-title" style="color: #F96D00;">Güner Bakımcı</h5>
+                <div class="contact-info d-flex flex-column">
+                    <div class="contact-item mb-3">
+                        <img src="~/img/telefon.png" alt="Telefon">
+                        <p><strong>Telefon:</strong> +90 533 200 48 88</p>
+                    </div>
+                    <div class="contact-item mb-3">
+                        <img src="~/img/email.png" alt="E-posta">
+                        <p><strong>E-posta:</strong> Lokkochocolate@hotmail.com</p>
+                    </div>
+                    <div class="contact-item mb-3">
+                        <img src="~/img/adres.png" alt="Adres">
+                        <p><strong>Adres:</strong> Shell Petrol Yanı, <br> Gözcüler mahallesi cumhuriyet 3. Caddesi no:131 <br> Lokko Chocolate World Maliye Kampı, Karşısı,<br>31000 Arsuz/Hatay</p>
+                    </div>
+                    <div class="contact-item mb-3">
+                        <img src="~/img/calisma.png" alt="Çalışma Saatleri">
+                        <p><strong>Çalışma Saatleri:</strong> Pazartesi - Pazar: <br>12:00 - 24:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sağ taraftaki accordion -->
+        <div class="col-lg-6">
+            <div class="mb-3 shadow">
+                <h5 class="card-title text-center" style="font-size: 24px; font-weight:bold; color:#F96D00;">Yeniliklerden Haberdar Olmak İçin Takipte Kalın...</h5>
+                <div class="accordion" id="accordionExample">
+                    <!-- İnstagram -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <img src="~/img/instagram.png" style="width: 32px; height: 32px; margin-right: 8px;"> İNSTAGRAM
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/lokko_chocolate_world/?igshid=MzRlODBiNWFlZA%3D%3D" data-instgrm-version="13" style="background:#FFF;border:0;border-radius:3px;margin:0px 0px 12px;padding:0px;">
+                                    <a href="https://www.instagram.com/lokko_chocolate_world/?igshid=MzRlODBiNWFlZA%3D%3D" style="color:#000;"></a>
+                                </blockquote>
+                                <script async src="//www.instagram.com/embed.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tiktok -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <img src="~/img/tiktok.png" style="width: 32px; height: 32px; margin-right: 8px;"> TİKTOK
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/lokko_chocolate_world" data-unique-id="lokko_chocolate_world" data-embed-type="creator" style="max-width: 780px; min-width: 288px;">
+                                    <section><a target="_blank" href="https://www.tiktok.com/lokko_chocolate_world?refer=creator_embed">lokko_chocolate_world</a></section>
+                                </blockquote>
+                                <script async src="https://www.tiktok.com/embed.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Facebook -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <img src="~/img/facebook.png" style="width: 32px; height: 32px; margin-right: 8px;">FACEBOOK
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flokkocafe%3Fmibextid%3DLQQJ4d%26rdid%3D24LVjyaXvOgLhQ1Q%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%_url%252Fyyoa9o1DvKGc97NJ%252F%253Fmibextid%253DLQQJ4d&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WhatsApp -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <img src="~/img/whatsapp.png" style="width: 32px; height: 32px; margin-right: 8px;"> WHATSAPP
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <a href="https://wa.me/905332004888">
+                                    <img src="~/img/whatsapp.png" style="width: 32px; height: 32px;" />
+                                    WhatsApp İletişim Hattı
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Konum kartı -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card-body text-left konum-card" style="background-color: #F2F2F2;">
+                <h5 class="card-title" style="color: #F96D00;">Konum</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.741408219194!2d35.89408551136406!3d36.41545128917814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1525c371d32852f5%3A0x7764054f2a4d0a91!2sLokko%20Chocolate%20World!5e0!3m2!1str!2str!4v1717420908566!5m2!1str!2str" width="600" height="450" style="border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>

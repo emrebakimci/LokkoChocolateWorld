@@ -1,0 +1,7 @@
+C:\Users\emre\Desktop\Lokko\publish\Lokko.exe
+C:\Users\emre\Desktop\Lokko\publish\appsettings.Development.json
+C:\Users\emre\Desktop\Lokko\publish\appsettings.json
+C:\Users\emre\Desktop\Lokko\publish\Lokko.dll
+C:\Users\emre\Desktop\Lokko\publish\Lokko.deps.json
+C:\Users\emre\Desktop\Lokko\publish\Lokko.runtimeconfig.json
+C:\Users\emre\Desktop\Lokko\publish\Lokko.pdb

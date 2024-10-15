@@ -1,0 +1,81 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-zel0la947l] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-zel0la947l] {
+  color: #0077cc;
+}
+
+.btn-primary[b-zel0la947l] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-zel0la947l], .nav-pills .show > .nav-link[b-zel0la947l] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-zel0la947l] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-zel0la947l] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-zel0la947l] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-zel0la947l] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-zel0la947l] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.navbar-brand img[b-zel0la947l]{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.logo-img[b-zel0la947l]{
+  max-width: 10px; /* Maksimum genişlik */
+  max-height: 6px; /* Maksimum yükseklik */
+  border-radius: 50%;
+}
+.navbar-nav[b-zel0la947l]{
+  justify-content: center;
+}
+
+/* Navbar başlangıçta carousel'e tam yapışsın */
+header[b-zel0la947l] {
+  margin-bottom: -1px; /* Carousel'in hemen üstüne gelsin */
+}
+
+.navbar[b-zel0la947l] {
+  background-color: #F2911B; /* Başlangıç rengi */
+  transition: all 0.8s ease; /* Geçiş süresi 0.8 saniye */
+}
+
+.navbar.shrink[b-zel0la947l] {
+  background-color: rgba(34, 34, 34, 0.8) !important; /* Şeffaf arkaplan */
+  padding: 10px; /* Küçülmüş padding */
+}
+
+
+
